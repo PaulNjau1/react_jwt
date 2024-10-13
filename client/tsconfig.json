@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Consider changing this from "es5" to "es6"
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true, // Keep if you're using .js files
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "jsx": "react-jsx" // Use "react" if you're on React 16 or lower
+  },
+  "include": ["src"]
+}
